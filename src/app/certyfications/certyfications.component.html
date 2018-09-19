@@ -1,0 +1,9 @@
+<div id="cerifications">
+  <h1>Certyfikaty</h1>
+  <div *ngFor="let el of certs">
+    <a [href]="'./assets/static/certs/' + el + '.pdf'" download>
+      <img class="cert-thumb" [src]="'./assets/static/certs/' + el + '.jpg'" alt="prodentica gabinet" width="190" height="143.5">
+      <i class="fa fa-download" aria-hidden="true"></i>
+    </a>
+  </div>
+</div>

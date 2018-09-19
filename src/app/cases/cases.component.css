@@ -1,0 +1,27 @@
+#cases button {
+  background-color: #71d759;
+  border: none;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px 5px 0 0;
+  margin: 0;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+#cases hr {
+  margin-top: -2px;
+  border-top: 1px solid #71d759;
+}
+
+.case {
+  padding: 15px 0 15px 0;
+}
+
+#cases .btnActive {
+  background-color: white !important;
+  color: grey !important;
+  border: solid 1px #71d759 !important;
+  border-bottom: none !important;
+}
