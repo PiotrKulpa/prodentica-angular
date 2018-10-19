@@ -73,6 +73,7 @@ header {
 
 .header-image {
   margin: 0;
+  width: 20%;
 }
 
 .header-image img {
@@ -86,6 +87,15 @@ header {
   float: right;
 }
 
+.contact-data {
+  height: 150px;
+  width: 100%;
+}
+
+.contact-data-txt {
+  padding-top: 80px;
+}
+
 .header-contact a {
   color: #8b8b8b;
   font-size: 0.9em;
@@ -96,7 +106,7 @@ header h3 {
 }
 
 header div {
-  width: 33%;
+  width: 40%;
 }
 
 nav {
@@ -236,6 +246,19 @@ footer {
     padding-right: 5px;
   }
 
+  .qr {
+    display: none;
+  }
+
+  .contact-data {
+    height: 100%;
+    width: 100%;
+  }
+
+  .contact-data-txt {
+    padding-top: 0;
+}
+
   nav {
     width: 300px;
     display: block;
@@ -355,6 +378,28 @@ footer {
   .active {
     font-weight: bold;
     font-size: 1.2em;
+  }
+
+  .header-logo h1, .header-logo h3 {
+    text-align: right !important;
+  }
+
+  .qr {
+    float: none;
+    width: 120px !important;
+  }
+
+  .contact-data {
+    height: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+  }
+
+  .contact-data-txt {
+    padding-top: 0;
+    margin: 0;
   }
 
   .footer-menu {
