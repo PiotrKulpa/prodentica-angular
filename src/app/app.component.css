@@ -79,8 +79,16 @@ header {
   margin-bottom: -6px;
 }
 
+.qr {
+  width: 150px !important;
+  margin-left: 5px !important;
+  padding: 0;
+  float: right;
+}
+
 .header-contact a {
   color: #8b8b8b;
+  font-size: 0.9em;
 }
 
 header h3 {
