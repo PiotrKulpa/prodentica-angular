@@ -35,7 +35,7 @@ hr {
   margin: auto;
 }
 
-main {
+.main {
   width: 1000px;
   margin: auto;
 }
@@ -214,7 +214,7 @@ footer {
 }
 
 @media screen and (max-width: 599px) {
-  main {
+  .main {
     width: 100%;
     margin: auto;
     padding: 0 5px;
@@ -358,7 +358,7 @@ footer {
 }
 
 @media screen and (min-width: 600px) and (max-width: 999px) {
-  main {
+  .main {
     width: 600px;
     margin: auto;
   }

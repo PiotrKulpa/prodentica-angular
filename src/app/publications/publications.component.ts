@@ -16,7 +16,6 @@ export class PublicationsComponent implements OnInit {
       this.publ.push(i);
     }
 
-    console.log(this.publ);
   }
 
 }

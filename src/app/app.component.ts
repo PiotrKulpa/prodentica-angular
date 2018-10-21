@@ -9,7 +9,7 @@ import {Router} from '@angular/router';
 })
 export class AppComponent {
   title = 'app';
-  year = '2018';
+  year = new Date().getFullYear();
   navState: boolean = true;
 
   toggleNav() {

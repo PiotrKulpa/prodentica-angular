@@ -1,6 +1,6 @@
 <div id="app">
 
-  <main>
+  <div class="main">
 
 
 
@@ -37,7 +37,7 @@
 
     <div class="nav-home-block" (click)="toggleNav()">
 
-      <a routerLink="/" [routerLinkActiveOptions]="{exact: true}" routerLinkActive="active">
+      <a routerLink="/"  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
         <div class="nav-home radial-gradient">Home</div>
       </a>
 
@@ -47,7 +47,7 @@
     <div class="nav-links-block" (click)="toggleNav()">
       <a routerLink="/onas" routerLinkActive="active" ><div class="nav-link">O nas</div></a>
 
-      <a routerLink="/uslugi" arouterLinkActive="active"><div class="nav-link radial-gradient">Usługi</div></a>
+      <a routerLink="/uslugi" routerLinkActive="active"><div class="nav-link radial-gradient">Usługi</div></a>
 
       <a routerLink="/galeria" routerLinkActive="active"><div class="nav-link">Galeria</div></a>
 
@@ -70,7 +70,7 @@
 
   <router-outlet></router-outlet>
 
-  </main>
+  </div>
 
   <footer class="gradient-footer">
 
