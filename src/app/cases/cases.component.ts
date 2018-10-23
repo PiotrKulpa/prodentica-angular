@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './cases.component.html',
   styleUrls: ['./cases.component.css']
 })
+/** Class representing a Cases component. */
 export class CasesComponent implements OnInit {
 
   case: number = 1;
@@ -14,6 +15,9 @@ export class CasesComponent implements OnInit {
   ngOnInit() {
   }
 
+  /**
+   * Toggle between cases.
+   */
   showCase(num) {
     this.case = num;
 

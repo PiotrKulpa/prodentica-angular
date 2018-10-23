@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './certyfications.component.html',
   styleUrls: ['./certyfications.component.css']
 })
+/** Class representing a Certyfications component. */
 export class CertyficationsComponent implements OnInit {
 
   certs: any[] = [];
@@ -13,6 +14,7 @@ export class CertyficationsComponent implements OnInit {
 
   ngOnInit() {
 
+    /** Set number of certification thumbnails. */
     for (var i = 1; i <= 70; i++) {
       this.certs.push(i);
     }

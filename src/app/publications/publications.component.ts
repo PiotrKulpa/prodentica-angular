@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './publications.component.html',
   styleUrls: ['./publications.component.css']
 })
+/** Class representing a Publications component. */
 export class PublicationsComponent implements OnInit {
 
   publ: any[] = [];
@@ -12,6 +13,10 @@ export class PublicationsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+    /**
+     * Set pdf publications length.
+     */
     for (var i = 1; i <= 2; i++) {
       this.publ.push(i);
     }

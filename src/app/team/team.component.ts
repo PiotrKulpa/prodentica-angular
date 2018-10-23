@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './team.component.html',
   styleUrls: ['./team.component.css']
 })
+/** Class representing a Team component. */
 export class TeamComponent implements OnInit {
 
   showSykut: boolean = false;

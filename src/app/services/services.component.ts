@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './services.component.html',
   styleUrls: ['./services.component.css']
 })
+/** Class representing a Services component. */
 export class ServicesComponent implements OnInit {
 
   show: boolean =  false;
@@ -13,6 +14,9 @@ export class ServicesComponent implements OnInit {
   ngOnInit() {
   }
 
+  /**
+   * Slide down and up content of services.
+   */
   showService(event) {
     event.stopPropagation();
     if(event.target.parentNode.nodeName === 'DIV') {

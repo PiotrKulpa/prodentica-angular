@@ -6,12 +6,16 @@ import  Swiper  from 'swiper';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
+/** Class representing a Home component. */
 export class HomeComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit() {
 
+    /**
+     * Run swiper to slide images.
+     */
     var swiper = new Swiper('.swiper-container', {
       spaceBetween: 30,
       centeredSlides: true,
