@@ -16,6 +16,8 @@ export class GalleryComponent implements OnInit {
     let _imgs = [];
     let remaining = darkbox.length;
 
+    loader.style.display = 'block';
+
     for (let a = 1; a < remaining; a++) {
       _imgs[a] = new Image();
       _imgs[a].onload = () => {

@@ -22,4 +22,14 @@ describe('GalleryComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should load images', () => {
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelectorAll('.gallery-img').length).toEqual(26);
+  });
+
+  it('should display loader', async(() => {
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('#loader').style.display).toEqual('block');
+  }));
 });

@@ -22,4 +22,8 @@ describe('PublicationsComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have pdf publications', () => {
+    expect(component.publ.length).toEqual(2);
+  });
 });

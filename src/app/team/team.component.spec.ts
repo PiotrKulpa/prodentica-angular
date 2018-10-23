@@ -22,4 +22,12 @@ describe('TeamComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should toggle more', () => {
+    expect(component.showSykut).not.toBeTruthy();
+    const compiled = fixture.debugElement.nativeElement;
+    const btn = compiled.querySelector('.team-link');
+    btn.click();
+    expect(component.showSykut).toBeTruthy();
+  });
 });
