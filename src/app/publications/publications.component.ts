@@ -17,7 +17,7 @@ export class PublicationsComponent implements OnInit {
     /**
      * Set pdf publications length.
      */
-    for (var i = 1; i <= 2; i++) {
+    for (var i = 1; i <= 3; i++) {
       this.publ.push(i);
     }
 

@@ -25,3 +25,77 @@
   border: solid 1px #71d759 !important;
   border-bottom: none !important;
 }
+
+.darkbox {
+  cursor: pointer;
+}
+
+.loader-container, .loader-container-thumbs {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader, .loader-thumbs {
+  width: 200px !important;
+}
+
+.img-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  text-align: center;
+}
+
+.darkbox-container img {
+  width: 33%;
+}
+
+.img-container img {
+  border: 15px solid black;
+  cursor: pointer;
+  width: 100%;
+  max-height:100%;
+}
+
+.darkbox-box {
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+
+.darkbox-box i {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 599px) {
+  .darkbox-container img {
+    width: 100%;
+  }
+  .img-container, .img-container img {
+    width: 90%;
+  }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+
+  .darkbox-container img {
+    width: 49.5%;
+  }
+
+  .img-container, .img-container img {
+    width: 90%;
+  }
+
+}

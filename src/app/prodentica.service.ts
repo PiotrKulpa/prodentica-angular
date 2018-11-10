@@ -46,4 +46,27 @@ export class ProdecticaService {
     {id: 18, name: "IMG_20180102_0008_NEW_0001"},
     {id: 19, name: "IMG_20180102_0008_NEW_0002"}
   ];
+
+  cases = [
+    {id: 1, name: "Grudzien-_Adrian_IOXR02"},
+    {id: 1, name: "Grudzien-_Adrian_IOXR08"},
+    {id: 1, name: "Grudzien-_Adrian_IOXR14"},
+    {id: 1, name: "Gwizdek_Beata_IOXR05"},
+    {id: 1, name: "Gwizdek_Beata_IOXR06"},
+    {id: 1, name: "Jarzabkowska_Anns_IOXR05"},
+    {id: 1, name: "Kowalik_Konrad_IOXR05"},
+    {id: 1, name: "Krasowaski_Norbert_IOXR09"},
+    {id: 1, name: "Majkut_Przemyslaw_IOXR10"},
+    {id: 1, name: "Majkut_Przemyslaw_IOXR10-(2)"},
+    {id: 1, name: "Majkut_Przemyslaw_IOXR19"},
+    {id: 1, name: "Majkut_Przemyslaw_IOXR22"},
+    {id: 1, name: "Majkut_Przemyslaw_IOXR25"},
+    {id: 1, name: "Marszaluk_Pawel_IOXR04"},
+    {id: 1, name: "Marszaluk_Pawel_IOXR12"},
+    {id: 1, name: "Miskiewicz_Aneta_IOXR09"},
+    {id: 1, name: "Miskiewicz_Aneta_IOXR18"},
+    {id: 1, name: "opielak_grzegorz_IOXR50"},
+    {id: 1, name: "szaszkow_nikita_IOXR20"},
+    {id: 1, name: "Trzebieniak_Grzegorz_IOXR05"}
+  ];
 }
