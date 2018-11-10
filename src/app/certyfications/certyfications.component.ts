@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class CertyficationsComponent implements OnInit {
 
   certs: any[] = [];
+  case: number = 1;
 
   constructor() { }
 
@@ -18,7 +19,13 @@ export class CertyficationsComponent implements OnInit {
     for (var i = 1; i <= 70; i++) {
       this.certs.push(i);
     }
+  }
 
+  /**
+   * Toggle between cases.
+   */
+  showCase(num) {
+    this.case = num;
   }
 
 }
