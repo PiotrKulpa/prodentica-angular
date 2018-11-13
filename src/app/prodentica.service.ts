@@ -48,25 +48,43 @@ export class ProdecticaService {
   ];
 
   cases = [
-    {id: 1, name: "Grudzien-_Adrian_IOXR02"},
-    {id: 1, name: "Grudzien-_Adrian_IOXR08"},
-    {id: 1, name: "Grudzien-_Adrian_IOXR14"},
-    {id: 1, name: "Gwizdek_Beata_IOXR05"},
-    {id: 1, name: "Gwizdek_Beata_IOXR06"},
-    {id: 1, name: "Jarzabkowska_Anns_IOXR05"},
-    {id: 1, name: "Kowalik_Konrad_IOXR05"},
-    {id: 1, name: "Krasowaski_Norbert_IOXR09"},
-    {id: 1, name: "Majkut_Przemyslaw_IOXR10"},
-    {id: 1, name: "Majkut_Przemyslaw_IOXR10-(2)"},
-    {id: 1, name: "Majkut_Przemyslaw_IOXR19"},
-    {id: 1, name: "Majkut_Przemyslaw_IOXR22"},
-    {id: 1, name: "Majkut_Przemyslaw_IOXR25"},
-    {id: 1, name: "Marszaluk_Pawel_IOXR04"},
-    {id: 1, name: "Marszaluk_Pawel_IOXR12"},
-    {id: 1, name: "Miskiewicz_Aneta_IOXR09"},
-    {id: 1, name: "Miskiewicz_Aneta_IOXR18"},
-    {id: 1, name: "opielak_grzegorz_IOXR50"},
-    {id: 1, name: "szaszkow_nikita_IOXR20"},
-    {id: 1, name: "Trzebieniak_Grzegorz_IOXR05"}
+    {id: 1, name: "case1"},
+    {id: 2, name: "case2"},
+    {id: 3, name: "case3"},
+    {id: 4, name: "case4"},
+    {id: 5, name: "case5"},
+    {id: 6, name: "case6"},
+    {id: 7, name: "case7"},
+    {id: 8, name: "case8"},
+    {id: 9, name: "case9"},
+    {id: 10, name: "case10"},
+    {id: 11, name: "case11"},
+    {id: 12, name: "case12"},
+    {id: 13, name: "case13"},
+    {id: 14, name: "case14"},
+    {id: 15, name: "case15"},
+    {id: 16, name: "case16"},
+    {id: 17, name: "case17"},
+    {id: 18, name: "case18"},
+    {id: 19, name: "case19"},
+    {id: 20, name: "case20"}
+  ];
+
+  equipment = [
+    {id: 1, name: "galeria01"},
+    {id: 2, name: "galeria02"},
+    {id: 3, name: "galeria03"},
+    {id: 4, name: "galeria04"},
+    {id: 5, name: "galeria06"},
+    {id: 6, name: "galeria07"},
+    {id: 7, name: "galeria010"},
+    {id: 8, name: "galeria012"},
+    {id: 9, name: "galeria013"},
+    {id: 10, name: "galeria014"},
+    {id: 11, name: "galeria015"},
+    {id: 12, name: "galeria017"},
+    {id: 13, name: "galeria018"},
+    {id: 14, name: "galeria021"},
+    {id: 15, name: "galeria026"}
   ];
 }

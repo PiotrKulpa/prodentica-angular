@@ -52,7 +52,8 @@
 }
 
 .darkbox-container img {
-  width: 33%;
+  width: 20%;
+  border: 2px solid white;
 }
 
 .img-container img {
