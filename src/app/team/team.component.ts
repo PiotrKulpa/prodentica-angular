@@ -10,6 +10,7 @@ export class TeamComponent implements OnInit {
 
   showSykut: boolean = false;
   showRadej: boolean = false;
+  showKopec: boolean = false;
 
   constructor() { }
 
